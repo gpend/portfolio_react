@@ -19,6 +19,11 @@ function App() {
                         beautiful, functional, and responsive websites. I'm looking for a position where I can continue to grow and learn.</p>
                     <p>In my past life I was a windows systems administrator specializing in scripting and automation.</p>
                 </div>  {/* End of WhatIDo--development*/}
+                {/*  <div className="WhatIDo--sysadmin WhatIDo--item">
+                    <h3 className="whatIDo--sysadmin title">sysadmin</h3>
+                    <p className="whatIDo--sysadmin description">In my past life I was an accomplished Windows Systems Admin 
+                        specializing in scripting and automation.</p>*/}
+                {/*  </div>  End of WhatIDo--sysadmin*/}
             </div>  {/* End of WhatIDo--items*/}
         </section> {/* End of whatIDo*/}
         <section className="WhoAmI light" id='who_am_i'>
@@ -52,7 +57,7 @@ function App() {
                 <a href="https://gpend.github.io/color-picker/"><img className="MyWork item"src="/color_picker_s.png" alt="My Work Item"/></a>
                 <a href="https://gpend.github.io/tip-calculator-app/"><img className="MyWork item"src="/splitter (Medium).jpg" alt="My Work Item"/></a>
                 <a href="https://gpend.github.io/calc-app/"><img className="MyWork item"src="/calc (Medium).jpg" alt="My Work Item"/></a>
-                <a href="https://gpend.github.io/receipe-site/"><img className="MyWork item"src="/bachelor_chow.png" alt="My Work Item"/></a>
+                <a href="https://gpend.github.io/receipe-site/"><img className="MyWork item"src="/batchlor_chow.png" alt="My Work Item"/></a>
                 <a href="https://gpend.github.io/frontendMentor_stats_preview_card/"><img className="MyWork item"src="/stats-card (Medium).jpg" alt="My Work Item"/></a>
                 <a href="https://gpend.github.io/pomodoro-timer/"><img className="MyWork item"src="/pomodoro (Medium).jpg" alt="My Work Item"/></a>
                 <a href="https://gpend.github.io/password-creator/"><img className="MyWork item" src="/password.png" alt="My WorkItem"/></a>
