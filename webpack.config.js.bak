@@ -1,21 +1,21 @@
-import path, { dirname } from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+import path, { dirname } from "path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
 export default module = {
   entry: path.join(dirname, "src", "index.js"),
-  mode: 'development',
+  mode: "development",
   output: {
-    path:path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
       {
         test: /\.svg$/,
-        use: ['@svgr/webpack'],
+        use: ["@svgr/webpack"],
       },
       {
         test: /\.(png|jp(e*)g|svg|gif)$/,
-        use: ['file-loader'],
+        use: ["file-loader"],
       },
       {
         test: /\.css$/i,
@@ -27,15 +27,15 @@ export default module = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
-          }
-        }
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+          },
+        },
       },
-    ]
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
     }),
   ],
-}
+};
